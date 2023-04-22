@@ -4,20 +4,48 @@
 .side_bar{
   width: 300px;
   height: 100vh;
-  
+}
 
 .side_header{
   height: 100px;
   background-color: #253141;
   padding: 0 20px;
+  display:flex; 
+  justify-content: space-between;
+  align-items: center;
+
 }
+.new_chat_link{
+  border: 1px lightblue solid;
+  padding: 14px;
+  font-size: 10px;
+  color: deepskyblue;
+  text-decoration: none;
+  
+}
+.user_name{
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
 }
 .rooms {
   background-color: #2F3E51;
   height: calc(100vh - 100px);
-  padding: 0 20px;
+  overflow: scroll;
 }
+.room_lists{
+  margin: 0;
+  list-style: none;
+  padding: 0;
 }
+.room{
+  padding: 20px 20px 40px;
+}
+.chat_link{
+  color: #fff;
+  text-decoration: none;
+}
+
 .main_chat{
   width: calc(100vw - 300px);
 
