@@ -15,13 +15,12 @@
   align-items: center;
 
 }
-.new_chat_link{
+.new-chat{
   border: 1px lightblue solid;
   padding: 14px;
   font-size: 10px;
   color: deepskyblue;
   text-decoration: none;
-  
 }
 .user_name{
   font-size: 16px;
