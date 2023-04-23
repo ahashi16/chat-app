@@ -1,6 +1,8 @@
 <div class=side_header>
-<a href="" class="user_name">Tom</a>
-<a href="" class="new_chat_link">チャットを作成する</a>
+  <div >
+   <%= link_to current_user.name, edit_user_path(current_user),class: "user_name" %>
+  </div>
+  <a href="#"  class="new-chat">チャットを作成する</a>
 </div>
 <div class=rooms>
   <ul class="room_lists">
