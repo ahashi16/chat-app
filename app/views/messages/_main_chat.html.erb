@@ -3,24 +3,7 @@
 <div class="end_link"><a href="#" class="end_btn">チャットを終了する</a></div>
 </div>
 <div class="main_contents">
-  <div class="contents-box">
-    <div class="contents-date">
-      <div class="message-user">Tom</div>
-      <div class="message-date">2022.10.12</div>
-    </div>
-    <div class="message-date">
-      <div class="message-content">おはようございます</div>
-    </div>
-  </div>
-  <div class="contents-box">
-    <div class="contents-date">
-      <div class="message-user">Sam</div>
-      <div class="message-date">2022.10.12</div>
-    </div>
-    <div class="message-main">
-      <div class="message-content">おはようございます</div>
-    </div>
-  </div>
+  <%= render partial: 'message', collection: @messages %>
 </div>
   <%= form_with model: [@room, @message], class: 'main_footer', local: true do |f| %>
   <div class="form-input">
