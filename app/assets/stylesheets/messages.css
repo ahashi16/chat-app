@@ -1,9 +1,13 @@
 .wrapper{
   display: flex;
+  
 }
 .side_bar{
   width: 300px;
   height: 100vh;
+}
+.main_contents{
+  overflow: scroll;
 }
 
 .side_header{
